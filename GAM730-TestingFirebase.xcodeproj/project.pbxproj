@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,19 @@
 		1804806424C6385B00A7DBBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1804806224C6385B00A7DBBA /* Main.storyboard */; };
 		1804806624C6385C00A7DBBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1804806524C6385C00A7DBBA /* Assets.xcassets */; };
 		1804806924C6385C00A7DBBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1804806724C6385C00A7DBBA /* LaunchScreen.storyboard */; };
+		18BB532625335DAD0054B3D7 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB532525335DAD0054B3D7 /* MessageCell.swift */; };
+		18BB532925335DD20054B3D7 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BB532825335DD20054B3D7 /* MessageCell.xib */; };
+		18CE62FE253353D900F29C6E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE62FD253353D900F29C6E /* Message.swift */; };
+		18CE63012533540B00F29C6E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE63002533540B00F29C6E /* RegisterViewController.swift */; };
+		18CE63042533541E00F29C6E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE63032533541E00F29C6E /* LoginViewController.swift */; };
+		18CE63072533543000F29C6E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE63062533543000F29C6E /* ChatViewController.swift */; };
+		18CE630A2533543F00F29C6E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE63092533543F00F29C6E /* Constants.swift */; };
+		18D6FC50253358E400CC7488 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D6FC4F253358E400CC7488 /* GoogleService-Info.plist */; };
+		C31C807857C355A2F5662E3A /* Pods_GAM730_TestingFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F124C27D0C6223E90DA02D80 /* Pods_GAM730_TestingFirebase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08EA8B37D5BD6D04C3641DFD /* Pods-GAM730-TestingFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAM730-TestingFirebase.release.xcconfig"; path = "Target Support Files/Pods-GAM730-TestingFirebase/Pods-GAM730-TestingFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		1804805924C6385B00A7DBBA /* GAM730-TestingFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GAM730-TestingFirebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1804805C24C6385B00A7DBBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1804805E24C6385B00A7DBBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,16 @@
 		1804806524C6385C00A7DBBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1804806824C6385C00A7DBBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1804806A24C6385C00A7DBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BB532525335DAD0054B3D7 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		18BB532825335DD20054B3D7 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		18CE62FD253353D900F29C6E /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		18CE63002533540B00F29C6E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		18CE63032533541E00F29C6E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18CE63062533543000F29C6E /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		18CE63092533543F00F29C6E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18D6FC4F253358E400CC7488 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		772D98FCF261952E9ED0EA1A /* Pods-GAM730-TestingFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAM730-TestingFirebase.debug.xcconfig"; path = "Target Support Files/Pods-GAM730-TestingFirebase/Pods-GAM730-TestingFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		F124C27D0C6223E90DA02D80 /* Pods_GAM730_TestingFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAM730_TestingFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C31C807857C355A2F5662E3A /* Pods_GAM730_TestingFirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				1804805B24C6385B00A7DBBA /* GAM730-TestingFirebase */,
 				1804805A24C6385B00A7DBBA /* Products */,
+				D958D9A2ED50FF9EDC985ECC /* Pods */,
+				96D8FCD77A44A72818791760 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +82,37 @@
 				1804805C24C6385B00A7DBBA /* AppDelegate.swift */,
 				1804805E24C6385B00A7DBBA /* SceneDelegate.swift */,
 				1804806024C6385B00A7DBBA /* ViewController.swift */,
+				18CE62FD253353D900F29C6E /* Message.swift */,
+				18CE63002533540B00F29C6E /* RegisterViewController.swift */,
+				18BB532525335DAD0054B3D7 /* MessageCell.swift */,
+				18BB532825335DD20054B3D7 /* MessageCell.xib */,
+				18CE63032533541E00F29C6E /* LoginViewController.swift */,
+				18CE63062533543000F29C6E /* ChatViewController.swift */,
+				18CE63092533543F00F29C6E /* Constants.swift */,
 				1804806224C6385B00A7DBBA /* Main.storyboard */,
 				1804806524C6385C00A7DBBA /* Assets.xcassets */,
 				1804806724C6385C00A7DBBA /* LaunchScreen.storyboard */,
 				1804806A24C6385C00A7DBBA /* Info.plist */,
+				18D6FC4F253358E400CC7488 /* GoogleService-Info.plist */,
 			);
 			path = "GAM730-TestingFirebase";
+			sourceTree = "<group>";
+		};
+		96D8FCD77A44A72818791760 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F124C27D0C6223E90DA02D80 /* Pods_GAM730_TestingFirebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D958D9A2ED50FF9EDC985ECC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				772D98FCF261952E9ED0EA1A /* Pods-GAM730-TestingFirebase.debug.xcconfig */,
+				08EA8B37D5BD6D04C3641DFD /* Pods-GAM730-TestingFirebase.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1804806D24C6385C00A7DBBA /* Build configuration list for PBXNativeTarget "GAM730-TestingFirebase" */;
 			buildPhases = (
+				14AA3E744916AC7FBEA0E332 /* [CP] Check Pods Manifest.lock */,
 				1804805524C6385B00A7DBBA /* Sources */,
 				1804805624C6385B00A7DBBA /* Frameworks */,
 				1804805724C6385B00A7DBBA /* Resources */,
+				33734E46F09C9520C48BF456 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +175,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BB532925335DD20054B3D7 /* MessageCell.xib in Resources */,
 				1804806924C6385C00A7DBBA /* LaunchScreen.storyboard in Resources */,
+				18D6FC50253358E400CC7488 /* GoogleService-Info.plist in Resources */,
 				1804806624C6385C00A7DBBA /* Assets.xcassets in Resources */,
 				1804806424C6385B00A7DBBA /* Main.storyboard in Resources */,
 			);
@@ -133,14 +185,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14AA3E744916AC7FBEA0E332 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GAM730-TestingFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33734E46F09C9520C48BF456 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GAM730-TestingFirebase/Pods-GAM730-TestingFirebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GAM730-TestingFirebase/Pods-GAM730-TestingFirebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GAM730-TestingFirebase/Pods-GAM730-TestingFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1804805524C6385B00A7DBBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CE63042533541E00F29C6E /* LoginViewController.swift in Sources */,
 				1804806124C6385B00A7DBBA /* ViewController.swift in Sources */,
+				18CE63012533540B00F29C6E /* RegisterViewController.swift in Sources */,
+				18CE63072533543000F29C6E /* ChatViewController.swift in Sources */,
+				18CE62FE253353D900F29C6E /* Message.swift in Sources */,
 				1804805D24C6385B00A7DBBA /* AppDelegate.swift in Sources */,
 				1804805F24C6385B00A7DBBA /* SceneDelegate.swift in Sources */,
+				18CE630A2533543F00F29C6E /* Constants.swift in Sources */,
+				18BB532625335DAD0054B3D7 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +382,7 @@
 		};
 		1804806E24C6385C00A7DBBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 772D98FCF261952E9ED0EA1A /* Pods-GAM730-TestingFirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +401,7 @@
 		};
 		1804806F24C6385C00A7DBBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08EA8B37D5BD6D04C3641DFD /* Pods-GAM730-TestingFirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
